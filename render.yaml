@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: springboot-backend
+    env: docker
+    plan: free
+    rootDir: seguimiento_donaciones_base
+    dockerfilePath: ./Dockerfile
