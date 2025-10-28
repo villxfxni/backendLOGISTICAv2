@@ -1,0 +1,6 @@
+{
+  "build": {
+    "context": "seguimiento_donaciones_base",
+    "dockerfilePath": "seguimiento_donaciones_base/Dockerfile"
+  }
+}
