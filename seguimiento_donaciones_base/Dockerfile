@@ -13,5 +13,10 @@ WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
 
+<<<<<<< HEAD
 EXPOSE 8082
 CMD ["sh","-c","java -jar app.jar --server.port=${PORT}"]
+=======
+EXPOSE 8081
+CMD ["sh", "-c", "java -jar app.jar --server.port=$PORT"]
+>>>>>>> f46334bb078ae149261cab1d5b6961faef426b06
